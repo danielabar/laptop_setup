@@ -1,0 +1,204 @@
+{
+  "editor.autoIndent": "keep",
+  "editor.cursorBlinking": "solid",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 5,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 13,
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": false,
+  "editor.formatOnPaste": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.occurrencesHighlight": false,
+  "editor.selectionHighlight": false,
+  "editor.renderControlCharacters": true,
+  // NATIVE BRACKET PAIR COLORIZER
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  // EXPLORER
+  "workbench.editor.enablePreview": false,
+  "workbench.colorTheme": "Night Owl (No Italics)",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorCustomizations": {
+    "[Night Owl]": {
+      "activityBar.background": "#000C1D",
+      "activityBar.border": "#102a44",
+      "sideBar.background": "#001122",
+      "sideBar.border": "#102a44",
+      "sideBar.foreground": "#8BADC1"
+    },
+    "[Night Owl No Italics]": {
+      "activityBar.background": "#000C1D",
+      "activityBar.border": "#102a44",
+      "sideBar.background": "#001122",
+      "sideBar.border": "#102a44",
+      "sideBar.foreground": "#8BADC1"
+    }
+  },
+  // FILES
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.associations": {
+    "*.erb": "erb",
+    "Gemfile": "ruby",
+    "*.js": "javascriptreact"
+  },
+  // EMMET
+  "emmet.includeLanguages": {
+    "html": "html",
+    "html.erb": "html",
+    "html.inky": "html",
+    "erb": "html",
+    "javascript": "javascriptreact"
+  },
+  // SEARCH
+  "search.exclude": {
+    "**/*.code-search": true,
+    "**/*.log": true,
+    "**/bower_components": true,
+    "**/node_modules": true,
+    "app/webpacker/src/vendor/scripts/**/*.js": true,
+    "coverage/**/*.*": true,
+    "log/*.log": true,
+    "node_modules": true,
+    "vendor/assets/javascripts/**/*.js": true
+  },
+  // LANG: Javascript
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "npm.packageManager": "yarn",
+  // PLUGIN: ATOM
+  "atomKeymap.promptV3Features": true,
+  // PLUGIN: Ruby
+  // Use built-in language server
+  "ruby.useLanguageServer": true,
+  // Extension should auto detect Ruby version from rbenv but not working so trying this
+  // "ruby.interpreter.commandPath": "/Users/myuser/.rbenv/versions/2.7.2/bin/ruby",
+  // Extension should auto detect Ruby version from rbenv but not working so trying this
+  "ruby.pathToBundler": "/Users/myuser/.rbenv/shims/bundle",
+  // Time (ms) to wait after keypress before running enabled linters.
+  "ruby.lintDebounceTime": 1500,
+  //run non-lint commands with bundle exec
+  "ruby.useBundler": true,
+  // Set individual ruby linters to use (https://github.com/rubyide/vscode-ruby/blob/master/docs/linting.md)
+  "ruby.lint": {
+    // enable rubocop via bundler
+    "rubocop": {
+      // Prefix the `rubocop` command with `bundle exec`
+      "useBundler": true,
+      // https://github.com/rubyide/vscode-ruby/issues/227#issuecomment-740521812
+      "forceExclusion": true
+    }
+  },
+  // Which system to use for formatting. Use `false` to disable or if another extension provides this feature.
+  // "ruby.format": "standard",
+  "ruby.format": "rubocop",
+  // PLUGIN: Solargraph
+  // Access intellisense for bundled gems
+  "solargraph.useBundler": true,
+  // Extension should auto detect Ruby version from rbenv but not working so trying this
+  // "solargraph.commandPath": "/Users/myuser/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/solargraph-0.39.17/bin/solargraph",
+  // Extension should auto detect Ruby version from rbenv but not working so trying this
+  "solargraph.bundlerPath": "/Users/myuser/.rbenv/shims/bundle",
+  // PLUGIN: Gitlens
+  // Specifies where to show the Repositories view
+  "gitlens.views.repositories.location": "gitlens",
+  // Specifies where to show the File History view
+  "gitlens.views.fileHistory.location": "gitlens",
+  // Specifies where to show the Line History view
+  "gitlens.views.lineHistory.location": "gitlens",
+  // Specifies where to show the Compare view
+  "gitlens.views.compare.location": "gitlens",
+  // Specifies where to show the Search Commits view
+  "gitlens.views.search.location": "gitlens",
+  // Specifies whether to provide an authors code lens, showing number of authors of the file or code block and the most prominent author (if there is more than one)
+  "gitlens.codeLens.authors.enabled": false,
+  // Specifies whether to provide a recent change code lens, showing the author and date of the most recent commit for the file or code block
+  "gitlens.codeLens.recentChange.enabled": false,
+  // Specifies whether to provide any Git code lens, by default.
+  "gitlens.codeLens.enabled": false,
+  // PLUGIN: Bracketpair Colorizer
+  "bracketPairColorizer.forceIterationColorCycle": true,
+  // PLUGIN: rest-client
+  "rest-client.previewResponseInUntitledDocument": true,
+  // Language specific formatting settings
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[ruby]": {
+    "editor.formatOnSave": false
+  },
+  "[scss]": {
+    "editor.formatOnSave": true
+  },
+  "peacock.favoriteColors": [
+    {
+      "name": "Angular Red",
+      "value": "#dd0531"
+    },
+    {
+      "name": "Azure Blue",
+      "value": "#007fff"
+    },
+    {
+      "name": "JavaScript Yellow",
+      "value": "#f9e64f"
+    },
+    {
+      "name": "Mandalorian Blue",
+      "value": "#1857a4"
+    },
+    {
+      "name": "Node Green",
+      "value": "#215732"
+    },
+    {
+      "name": "React Blue",
+      "value": "#61dafb"
+    },
+    {
+      "name": "Something Different",
+      "value": "#832561"
+    },
+    {
+      "name": "Svelte Orange",
+      "value": "#ff3d00"
+    },
+    {
+      "name": "Vue Green",
+      "value": "#42b883"
+    }
+  ],
+  "explorer.confirmDragAndDrop": false,
+  "editor.renderWhitespace": "all",
+  "extensions.ignoreRecommendations": true,
+  "python.pythonPath": "/usr/bin/python3",
+  "files.exclude": {
+    "**/.log": true,
+    "coverage": true
+  },
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "workbench.editor.untitled.hint": "hidden",
+  "files.watcherExclude": {
+    "coverage": true
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "redhat.telemetry.enabled": false,
+  "python.defaultInterpreterPath": "/usr/bin/python3",
+  "editor.detectIndentation": false,
+  "git.openRepositoryInParentFolders": "always",
+  "window.zoomLevel": 1,
+  "[python]": {
+    "editor.formatOnType": true
+  }
+}

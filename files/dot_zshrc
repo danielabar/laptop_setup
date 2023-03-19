@@ -1,0 +1,20 @@
+# Load rbenv automatically by appending the following to ~/.zshrc:
+eval "$(rbenv init -)"
+
+# Set terminal title, usage: $ t mytitle
+t () { echo -ne "\e]1;$@\a"; }
+
+# https://gist.github.com/wadey/1140259
+tab-color() {
+  echo -ne "\033]6;1;bg;red;brightness;$1\a"
+  echo -ne "\033]6;1;bg;green;brightness;$2\a"
+  echo -ne "\033]6;1;bg;blue;brightness;$3\a"
+}
+tab-red() { tab-color 255 0 0 }
+tab-green() { tab-color 0 255 0 }
+tab-blue() { tab-color 0 0 255 }
+tab-reset() { echo -ne "\033]6;1;bg;*;default\a" }
+
+# Make Docker builds faster
+export DOCKER_BUILDX=1
+export COMPOSE_DOCKER_CLI_BUILD=1

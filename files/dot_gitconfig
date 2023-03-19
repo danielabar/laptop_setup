@@ -1,0 +1,44 @@
+[user]
+	name = First Last
+	email = user@company.com
+[color]
+	ui = true
+[core]
+	excludesfile = /Users/myuser/.gitignore_global
+	editor = nano
+	autocrlf = input
+[merge]
+	tool = diffmerge
+[mergetool "diffmerge"]
+	cmd = /Applications/DiffMerge.app/Contents/MacOS/diffmerge --merge --result=$MERGED $LOCAL $BASE $REMOTE
+[mergetool]
+	keepBackup = false
+[diff]
+	tool = diffmerge
+[difftool "diffmerge"]
+	cmd = /Applications/DiffMerge.app/Contents/MacOS/diffmerge $LOCAL $REMOTE
+[alias]
+	st = status
+	co = checkout
+	cob = checkout -b
+	del = branch -D
+	ci = commit
+	br = branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' --sort=-committerdate
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	type = cat-file -t
+	dump = cat-file -p
+	lgorig = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
+	lg = !git log --pretty=format:\"%C(magenta)%h%Creset -%C(red)%d%Creset %s %C(dim green)(%cr) [%an]\" --abbrev-commit -30
+	undo = reset HEAD~1 --mixed
+  res = !git reset --hard
+	wip = for-each-ref --sort='authordate:iso8601' --format=' %(color:green)%(authordate:relative)%09%(color:white)%(refname:short)' refs/heads
+[push]
+	default = simple
+[filter "media"]
+	clean = git media clean %f
+	smudge = git media smudge %f
+	required = true
+[branch]
+	autosetuprebase = always
+[init]
+	defaultBranch = main

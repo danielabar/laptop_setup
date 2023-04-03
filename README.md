@@ -132,11 +132,14 @@ Copy `files/dot_gitignore_global` to `~/.gitignore_global`
 * Prettify JSON
 * Rainbow CSV
 * REST Client
+* YAML
+
+Hold off on all the Ruby stuff until after rbenv installed:
+
 * Ruby
 * Ruby Solargraph (maybe not yet)
 * VSCode Ruby (is this needed in addition to Ruby?)
 * vscode-gemfile
-* YAML
 
 #### Settings
 
@@ -157,3 +160,5 @@ brew install rbenv ruby-build
 rbenv init
 gem install bundler
 ```
+
+Back to VSCode, try this new extension: https://code.visualstudio.com/docs/languages/ruby

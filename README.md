@@ -7,19 +7,19 @@
   - [Finder](#finder)
   - [Install Apps](#install-apps)
     - [Alfred](#alfred)
-    - [Spectacle](#spectacle)
+    - [Rectangle](#rectangle)
     - [Chrome](#chrome)
       - [Extensions](#extensions)
       - [Dev Tools](#dev-tools)
     - [Firefox Developer Edition](#firefox-developer-edition)
-    - [SourceGear DiffMerge](#sourcegear-diffmerge)
     - [iTerm](#iterm)
       - [brew install](#brew-install)
     - [VS Code](#vs-code)
-      - [Extensions](#extensions-1)
       - [Settings](#settings)
     - [Docker](#docker)
   - [Ruby](#ruby)
+  - [Password Manager](#password-manager)
+  - [Printer](#printer)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -51,11 +51,11 @@
 * Prefs -> Web Bookmarks -> Google Chrome Bookmarks (prefix b)
 * Prefs -> System -> Confirm
 
-### Spectacle
+### Rectangle
 
 Adjust shortcuts:
 
-![spectacle shortcuts](screenshots/spectacle_shortcuts.png "spectacle shortcuts")
+![rectangle shortcuts](screenshots/rectangle_shortcuts.png "rectangle shortcuts")
 
 ### Chrome
 
@@ -63,7 +63,6 @@ Adjust shortcuts:
 
 * [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 * [Json viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh)
-* Password manager?
 
 #### Dev Tools
 
@@ -72,14 +71,15 @@ Adjust shortcuts:
 
 ### Firefox Developer Edition
 
-### SourceGear DiffMerge
-
-[Download](https://www.sourcegear.com/diffmerge/)
 
 ### iTerm
 
-* Prefs -> Keys -> Hot Key: Cmd + Ctrl + t
-* Prefs -> Appearance -> uncheck window tab title
+- copy `com.googlecode.iterm2.plist` from this repo to somewhere local
+- iTerm Cmd + , to load Preferences pane
+- General -> Preferences (sub-pane)
+- Fill in checkbox "Load preferences from a custom folder or URL"
+- Browse to path where saved the plist file (either specify the actual file or just the folder with a trailing slash!)
+[ref](https://stackoverflow.com/questions/22943676/how-to-export-iterm2-profiles)
 
 ```
 xcode-select --install
@@ -99,6 +99,20 @@ Copy `files/aliases.zsh` to `~/.oh-my-zsh/custom/aliases.zsh` (replace gdrive us
 
 Add functions in `files/dot_zshrc` to `~/.zshrc`
 
+Make sure the following is in .zshrc:
+
+```bash
+```bash
+ZSH_THEME="agnoster"
+
+# Do not show username in prompt
+DEFAULT_USER="dbaron"
+
+# Oh My Zsh automatically sets the title of your terminal and tabs when running a command or printing the prompt.
+# Use this setting if you want to disable that.
+DISABLE_AUTO_TITLE=true
+```
+
 #### brew install
 
 * git
@@ -115,31 +129,8 @@ Copy `files/dot_gitignore_global` to `~/.gitignore_global`
 
 [FiraCode](https://github.com/tonsky/FiraCode)
 
-#### Extensions
-
-* Atom Keymap
-* Bash Beautify
-* Cucumber (Gherkin) Full Support
-* Docker
-* EditorConfig for VS Code
-* ESLint
-* GitLens - Git supercharged
-* Markdown All in One
-* Material Icon Theme
-* Night Owl
-* Path intellisense
-* Peacock
-* Prettify JSON
-* Rainbow CSV
-* REST Client
-* YAML
-
-Hold off on all the Ruby stuff until after rbenv installed:
-
-* Ruby
-* Ruby Solargraph (maybe not yet)
-* VSCode Ruby (is this needed in addition to Ruby?)
-* vscode-gemfile
+- Command Palette: Shell Command: Install 'code' command in PATH
+- Run `./install_vscode_extensions.sh`
 
 #### Settings
 
@@ -162,3 +153,12 @@ gem install bundler
 ```
 
 Back to VSCode, try this new extension: https://code.visualstudio.com/docs/languages/ruby
+
+## Password Manager
+
+- Install & authenticate to password manager
+- Install corresponding browser extension
+
+## Printer
+
+- Install printer/scanner driver

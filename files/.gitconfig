@@ -1,0 +1,46 @@
+[user]
+	name = Daniela Baron
+	email = my.email@address.com
+[color]
+	ui = true
+[core]
+	excludesfile = /Users/dbaron/.gitignore_global
+	editor = code --wait --new-window
+	autocrlf = input
+[merge]
+	tool = vscode
+[mergetool "vscode"]
+	cmd = code --wait $MERGED $LOCAL $BASE $REMOTE
+[mergetool]
+	keepBackup = false
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+[alias]
+	st = status
+	co = checkout
+	cob = checkout -b
+	del = branch -D
+	ci = commit
+	br = branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' --sort=-committerdate
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	type = cat-file -t
+	dump = cat-file -p
+	lgorig = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
+	lg = !git log --pretty=format:\"%C(magenta)%h%Creset -%C(red)%d%Creset %s %C(dim green)(%cr) [%an]\" --abbrev-commit -30
+	undo = reset HEAD~1 --mixed
+  res = !git reset --hard
+	wip = for-each-ref --sort='authordate:iso8601' --format=' %(color:green)%(authordate:relative)%09%(color:white)%(refname:short)' refs/heads
+	count = rev-list --count HEAD ^development
+	standup = log --since="6am" --oneline
+[push]
+	default = simple
+[filter "media"]
+	clean = git media clean %f
+	smudge = git media smudge %f
+	required = true
+[branch]
+	autosetuprebase = always
+[init]
+	defaultBranch = main

@@ -75,6 +75,10 @@ Adjust shortcuts:
 
 ### iTerm
 
+Install iTerm.
+
+Install [Powerline fonts](https://github.com/powerline/fonts)
+
 - copy `com.googlecode.iterm2.plist` from this repo to somewhere local
 - iTerm Cmd + , to load Preferences pane
 - General -> Preferences (sub-pane)
@@ -87,8 +91,6 @@ xcode-select --install
 ```
 
 [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
-
-[Powerline fonts](https://github.com/powerline/fonts)
 
 [Agnoster + Solarized Dark](https://danielabaron.me/blog/how-i-setup-my-terminal/)
 

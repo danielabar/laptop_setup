@@ -124,7 +124,7 @@ DISABLE_AUTO_TITLE=true
 * tldr
 * exa
 
-Copy `files/dot_gitconfig` to `~/.gitconfig` (fill in actual user details)
+Copy `files/.gitconfig` to `~/.gitconfig` (fill in actual user details)
 
 Copy `files/dot_gitignore_global` to `~/.gitignore_global`
 

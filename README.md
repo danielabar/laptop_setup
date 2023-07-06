@@ -19,6 +19,7 @@
     - [Docker](#docker)
   - [Ruby](#ruby)
   - [Password Manager](#password-manager)
+  - [Github](#github)
   - [Printer](#printer)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -159,6 +160,11 @@ Back to VSCode, try this new extension: https://code.visualstudio.com/docs/langu
 - Install & authenticate to password manager
 - Install corresponding browser extension
 
+## Github
+
+- Sign in
+- [ssh](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
+
 ## Printer
 
-- Install printer/scanner driver
+[Add printer](https://support.apple.com/en-ca/guide/mac-help/mh14004/13.0/mac/13.0#apd099ba26671c44)

@@ -63,6 +63,8 @@ Adjust shortcuts:
 
 ### Chrome
 
+Sign in to Google account to sync bookmarks.
+
 #### Extensions
 
 * [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)

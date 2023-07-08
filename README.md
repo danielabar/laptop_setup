@@ -3,7 +3,7 @@
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 - [Laptop Setup](#laptop-setup)
-  - [Mouse \& Keyboard](#mouse--keyboard)
+  - [Hardware](#hardware)
   - [Finder](#finder)
   - [Install Apps](#install-apps)
     - [Alfred](#alfred)
@@ -21,12 +21,13 @@
   - [Password Manager](#password-manager)
   - [Github](#github)
   - [Printer](#printer)
+  - [Data](#data)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 # Laptop Setup
 
-## Mouse & Keyboard
+## Hardware
 
 * Connect bluetooth magic mouse
 * Connect bluetooth magic keyboard
@@ -34,6 +35,8 @@
 * Prefs -> Trackpad: Click to tap
 * Prefs -> Mouse: Secondary click right side, disable smart zoom, turn off all gestures
 * Prefs -> Dock: Small-ish, Magnification, small/medium, Minimize windows Genie effect, Auto hide/show
+* Connect external monitor
+* Prefs -> Displays: Extend, arrange
 
 ## Finder
 
@@ -170,3 +173,8 @@ Back to VSCode, try this new extension: https://code.visualstudio.com/docs/langu
 ## Printer
 
 [Add printer](https://support.apple.com/en-ca/guide/mac-help/mh14004/13.0/mac/13.0#apd099ba26671c44)
+
+## Data
+
+- Copy files from old computer (backup drive?)
+- Setup time machine backup

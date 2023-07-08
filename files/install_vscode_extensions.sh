@@ -27,3 +27,12 @@ code --install-extension redhat.vscode-yaml
 code --install-extension sdras.night-owl
 code --install-extension Shopify.ruby-lsp
 code --install-extension yzhang.markdown-all-in-one
+code --install-extension bierner.markdown-mermaid
+code --install-extension formulahendry.code-runner
+code --install-extension GraphQL.vscode-graphql
+code --install-extension GraphQL.vscode-graphql-execution
+code --install-extension GraphQL.vscode-graphql-syntax
+code --install-extension Rubymaniac.vscode-paste-and-indent
+code --install-extension streetsidesoftware.code-spell-checker
+code --install-extension vittorioromeo.expand-selection-to-scope
+code --install-extension wix.vscode-import-cost

@@ -160,8 +160,6 @@ rbenv init
 gem install bundler
 ```
 
-Back to VSCode, try this new extension: https://code.visualstudio.com/docs/languages/ruby
-
 ## Password Manager
 
 - Install & authenticate to password manager

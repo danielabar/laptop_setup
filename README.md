@@ -63,7 +63,8 @@ Adjust shortcuts:
 
 ### Chrome
 
-Sign in to Google account to sync bookmarks.
+* Sign in to Google account to sync bookmarks.
+* Change [default search engine](https://support.google.com/chrome/answer/95426?hl=en&co=GENIE.Platform%3DDesktop)
 
 #### Extensions
 

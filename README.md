@@ -80,7 +80,7 @@ Sign in to Google account to sync bookmarks.
 
 ### iTerm
 
-Install iTerm.
+[Install](https://iterm2.com/)
 
 Install [Powerline fonts](https://github.com/powerline/fonts)
 
@@ -168,7 +168,8 @@ gem install bundler
 ## Github
 
 - Sign in
-- [ssh](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
+- [Setup ssh key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
+- [Install Github CLI](https://cli.github.com/)
 
 ## Printer
 

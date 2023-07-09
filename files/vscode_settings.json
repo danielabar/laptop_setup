@@ -71,6 +71,9 @@
   "npm.packageManager": "yarn",
   // PLUGIN: ATOM
   "atomKeymap.promptV3Features": true,
+  // PLUGIN: Code Runner
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.runInTerminal": true,
   // PLUGIN: Ruby
   // Use built-in language server
   "ruby.useLanguageServer": true,

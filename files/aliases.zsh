@@ -6,6 +6,7 @@ alias gd='git diff'
 alias gs='git status -sb'
 alias gp='git push'
 alias gdt='git difftool'
+alias glogd='git log --oneline --decorate --graph --pretty=format:"%C(auto)%h %C(auto)%d %Cgreen%ad %Creset%s" --date=format:"%Y-%m-%d"'
 alias c='code .'
 alias dv='cd ~/dev'
 alias localip="ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1'"

@@ -22,6 +22,7 @@
   - [Github](#github)
   - [Printer](#printer)
   - [Data](#data)
+  - [Other Apps](#other-apps)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -91,6 +92,7 @@ Install [Powerline fonts](https://github.com/powerline/fonts)
 - Fill in checkbox "Load preferences from a custom folder or URL"
 - Browse to path where saved the plist file (either specify the actual file or just the folder with a trailing slash!)
 [ref](https://stackoverflow.com/questions/22943676/how-to-export-iterm2-profiles)
+- Profiles: Load profile json from `files/dbaron.json`, make default (may have to quit and restart iTerm to see effect)
 
 ```
 xcode-select --install
@@ -180,3 +182,9 @@ gem install bundler
 
 - Copy files from old computer (backup drive?)
 - Setup time machine backup
+
+## Other Apps
+
+- Figma
+- Libre Office
+- Dropbox

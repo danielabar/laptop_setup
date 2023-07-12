@@ -131,6 +131,7 @@ DISABLE_AUTO_TITLE=true
 * bat
 * tldr
 * exa
+* postgresql@{latest_version}
 
 Copy `files/.gitconfig` to `~/.gitconfig` (fill in actual user details)
 

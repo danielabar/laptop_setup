@@ -136,6 +136,8 @@ Copy `files/.gitconfig` to `~/.gitconfig` (fill in actual user details)
 
 Copy `files/dot_gitignore_global` to `~/.gitignore_global`
 
+[Install heroku cli](https://devcenter.heroku.com/articles/heroku-cli)
+
 ### VS Code
 
 [FiraCode](https://github.com/tonsky/FiraCode)
